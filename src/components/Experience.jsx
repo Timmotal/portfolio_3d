@@ -11,9 +11,7 @@ import * as THREE from "three"
 import { Background } from "./Background";
 
 export const Experience = (props) => { // pass the section to the props
-  const { 
-    // section, // taken out because of a scroll issue
-     menuOpened } = props; 
+  const { menuOpened } = props; 
   const data = useScroll();
   
   const { viewport } = useThree();
@@ -65,7 +63,7 @@ export const Experience = (props) => { // pass the section to the props
       setSection(curSection);
     }
 
-
+ 
     state.camera.position.x = cameraPositionX.get();
     state.camera.lookAt(cameraLookAtX.get(), 0, 0);
 

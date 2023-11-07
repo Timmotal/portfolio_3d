@@ -65,7 +65,8 @@ export function Majake(props) {
     return () => {
       // actions["MajakeStanding"].reset().fadeOut(.5) // stop previous animation
       // console.log(actions[animation])
-      actions[animation].reset().fadeOut(.5) // stop previous animation
+      // actions[animation].reset().fadeOut(.5) // stop previous animation
+      actions[animation].fadeOut(0.5) // do not reset in fadeout
     }
   }, [animation]) // call useEffect when animation changes
 
