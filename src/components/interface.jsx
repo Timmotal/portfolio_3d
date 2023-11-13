@@ -54,7 +54,7 @@ const AboutSection = (props) => {
         <Section mobileTop>
             
         <h1 className="text-4xl text-darkAccent md:text-6xl font-extrabold leading-snug mt-8 md:mt-0">
-            Holla'
+            Hola'
             <br/>
             <span className="px-1 italic "> says Timmortal</span>
         </h1>
