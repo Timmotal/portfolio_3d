@@ -33,6 +33,14 @@ export const projects = [
         
     },
     {
+      title: "Rirawa",
+      url: "https://rirawa.vercel.app/",
+      image: "projects/project-7.png",
+      description: "Networking App.",
+      githubRepo: "https://github.com/Timmotal/rirawa",
+        
+    },
+    {
       title: "Ridym",
       url: "https://ridym.vercel.app",
       image: "projects/project-6.png",
