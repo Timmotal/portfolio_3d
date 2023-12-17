@@ -6,14 +6,14 @@ import { useEffect, useRef } from "react";
 import { animate, useMotionValue } from "framer-motion";
 
 export const projects = [
-  {
-    title: "Marsverse",
-    url: "https://marsverse-timmortal.vercel.app/",
-    image: "projects/project-4.png",
-    description: "Explore Mars in VR. Concept App.",
-    githubRepo: "https://github.com/Timmotal/Marsverse",
+  // {
+  //   title: "Marsverse",
+  //   url: "https://marsverse-timmortal.vercel.app/",
+  //   image: "projects/project-4.png",
+  //   description: "Explore Mars in VR. Concept App.",
+  //   githubRepo: "https://github.com/Timmotal/Marsverse",
       
-  },
+  // },
   
     {
       title: "Expelimus",
