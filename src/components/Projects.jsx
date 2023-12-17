@@ -57,14 +57,14 @@ export const projects = [
       githubRepo: "https://github.com/Timmotal/Petsu",
         
     },
-    {
-        title: "Evogym",
-        url: "https://mogymn.vercel.app/",
-        image: "projects/project-5.png",
-        description: "Gymnasium App.",
-        githubRepo: "https://github.com/Timmotal/mogymn",
+    // {
+    //     title: "Evogym",
+    //     url: "https://mogymn.vercel.app/",
+    //     image: "projects/project-5.png",
+    //     description: "Gymnasium App.",
+    //     githubRepo: "https://github.com/Timmotal/mogymn",
         
-      },
+    //   },
   ];
 
 const Project = (props) => {
