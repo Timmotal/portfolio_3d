@@ -176,7 +176,7 @@ const Project = (props) => {
 
 // it is divided by 2 to make sure the current project is the one at the middle
 // export const currentProjectAtom = atom(Math.floor(projects.length / 2));
-export const currentProjectAtom = atom(2);
+export const currentProjectAtom = atom(1);
 
 
 export const Projects = () => {
